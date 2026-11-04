@@ -45,6 +45,21 @@ Missing Values: One of the largest issues that i ran into was missing info. Some
 Outliers: I Also wanted to look into whether certain wards reported weirdly high numbers of certain requests. Although an unusually high number dosent just mean that there is an error. It could mean that there is sensitive or private information, but it could also be a real pattern worth looking into. I will look furtur into this using my pivot table
 
 ### 2.2. Cleaning Data
+Before diving deep into the data i first wanted to clean the data up, this helps make the data easier to understand and read. I did this on google sheets using a seperate tab from the orinigal data called "Working Clean" while keeping the orinigal data in "Raw Import" 
+
+TThe first method i used was the find and replace method. Some record contained a \N, which shows that ottawa 311 had missing information there. I selected Edit, then went to find and replace. I searched for \N and replaced it with blank cells. This made missing values wayyyyyyyyy easier to find, however, it did not bring back the information that was originally missing 
+
+My second method was the Trim Whitespace Method. I sleected the data set and used Data > Data Cleanup > Trim Whitespace. This looked around for unneeded black spaced around text values. Extra spaces can make google sheets treat two values who technically fall under the same category show up as different values. This is not good. 
+
+My third method was checking for any duplicate records. I selected all the data with CTRL + A and used data > data cleanup > remove duplicates. Though this eneded up not being that necisarry as it found 0 duplicates but with large data sets its always good to try just incase. Better then finding duplicate data. 
+
+I also used freeze under the view menu to keep the first row clearly visable while scrolling thorugh the spreadsheet. This made it way easier to find the columns needed for cleaning. 
+
+I created a new column called ward_For_Analysis to serpeate requests assigned to a ottawa ward from missing ward information requests. Instead of deleting the records i renamed them to "Ward Unavailable" 
+
+The formula i used for this was =IF(J2="", "Ward Unavailable", "Ward "&J2)
+
+this kept all records while making ward information easier to read and understand quickly 
 ### 2.3. Analyzing Data
 
 ## 3. Delivering Data
