@@ -61,7 +61,24 @@ The formula i used for this was =IF(J2="", "Ward Unavailable", "Ward "&J2)
 
 this kept all records while making ward information easier to read and understand quickly 
 ### 2.3. Analyzing Data
+After cleaning up my 311 dataset, i wanted to see if different wards had different types of service requests. To do this i made a pivot table in sheets using "Ward_For_Analysis" as my rows, yupe as my colums and counta of service request ID as the values, i then looked at the percentages of each request type and how they differed between each ward. 
 
+Of the 5000 records in my sample, 551 has mnissing information leaving 4449 records unused (that could have been used)
+
+Some of the cool patters i saw while doing there were, ward 24, garbage and recycling made up for around 42.9% of request calls. In ward 5, roads and transpo where 40.7%, while bylaw services made up of 31.3% of requests in ward 12
+
+I chose these variables beacuse i wanted to compare the different problems being reported rather than simply which ward contacted the city most often
+
+I also made 100% bar chart (stacked) to see the differences in proportion of diffrent categories, which was really cool.  This made it easier to see how the mix of reports changes between wards.
+
+These findings show that different areas of ottawa may have different concerns from its residents. The results are based on a sample however, and with more time and investigating we would be able to draw a much more clear conclusion. 
+
+
+Figure 3: Pivot table showing the percentage of service request types across selected Ottawa wards.
+
+
+
+Figure 4: Exploratory chart comparing service request categories across selected Ottawa wards.
 ## 3. Delivering Data
 
 ## 4. Refrences
