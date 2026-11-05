@@ -80,6 +80,28 @@ Figure 3: Pivot table showing the percentage of service request types across sel
 
 Figure 4: Exploratory chart comparing service request categories across selected Ottawa wards.
 ## 3. Delivering Data
+After taking a peek at the 311 request data, i think that there is a ton of portential to make a story about how residents expereience different problems depending on which ward they are currently staying in. The end goal is to get an understanding as to why ceretain types of these requstes are showing up more in certain wards over others. 
+
+The data shows how often these residents contact the 311 number about different municiple services, but it dose not explain  why these thinks are becoming an issue in the first place. Just because one ward is seeing more requests dosent mean directly that its a worse place to live. It could just mean that the residents in that area are more familliar with the 311 number than other wards. 
+
+To build this further i would compare this data set of 311 calls with previous years. I would also look at the differences in things like population, buldings, and whether these certain wards have old roads or housing. 
+
+I would want to interview residents from the wards that i look at as well as anyone from the city who has a part in these 311 calls. There perspective could shine some important light on my topic. 
+
+I also found previous reporting by Capitol Current that could help give some more context. Young et al. (2024) investigated the potholes problem in ottawa using the 311 data, while lao et al (2024) took a look at the complaints areound university neibourhoods starting in september. 
+
+Using these insperations my story would build on this reporting by looking at many different categories of requests reather than focusing on one issue. 
+
+
 
 ## 4. Refrences
 
+City of Ottawa. (2026). Current year service requests. Open Ottawa. https://data.urbandatacentre.ca/en/catalogue/open-ottawa-9de005-current-year-service-requests
+
+Lao, L., Sacheski-Tries, N., & Swinarchin, C. (2024, December 1). Noise complaints climb in September as academic year begins, data shows. Capital Current. https://capitalcurrent.ca/noise-complaints-climb-in-september-as-academic-year-begins/
+
+OpenAI. (2026). ChatGPT [Large language model]. https://chatgpt.com/
+
+Statistics Canada. (2021, September 2). Data exploration. Statistics: Power from Data! https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214810-eng.htm
+
+Young, A., Noble, A., Brombach, J., & Carrillo Brito, S. (2024, December 3). Ottawa's pothole problem: The city's need for road renewal. Capital Current. https://capitalcurrent.ca/ottawas-pothole-problem-the-citys-need-for-road-renewal/
