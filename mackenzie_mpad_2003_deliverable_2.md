@@ -78,7 +78,7 @@ I also made 100% bar chart (stacked) to see the differences in proportion of dif
 
 These findings show that different areas of ottawa may have different concerns from its residents. The results are based on a sample however, and with more time and investigating we would be able to draw a much more clear conclusion. 
 
-![Ottawa 311 Pivot Table](pivot-table-screen-capture.png)
+![Ottawa 311 Pivot Table](Pivot_Table.png)
 Figure 3: Pivot table showing the percentage of service request types across selected Ottawa wards.
 
 
