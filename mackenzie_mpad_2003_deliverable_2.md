@@ -20,7 +20,7 @@ The imported sheet contains 5001 datta rows and 11 colums as of october 28th 202
 The ward field is a nominial caregorical variable, a ward number is an identifier not a quality that has any meaning worth averageing. Type is also a nominal value by serpeating service categories without ranking them. Opened Date is a date/time variable that allows daily or monthly comparisions of the data. And a fourth useful field would be the service request ID, this connectes a number to a recortd and can help check for duplicates. Stats Canada (2021) emphasizes identifying variable types
 
 
-![Ottawa 311 dataset after import](311_after_import.png)
+![Ottawa 311 dataset after import](raw_impoirt.png)
 
 *Figure 1: Ottawa 311 dataset before cleaning, showing the original column headings and service requests.*
 
@@ -60,6 +60,11 @@ I created a new column called ward_For_Analysis to serpeate requests assigned to
 The formula i used for this was =IF(J2="", "Ward Unavailable", "Ward "&J2)
 
 this kept all records while making ward information easier to read and understand quickly 
+
+
+![Cleaned Ottawa 311 Data](311_after_cleaning.png.png)
+
+*Figure 2: Ottawa 311 dataset after cleaning in Google Sheets.*
 ### 2.3. Analyzing Data
 After cleaning up my 311 dataset, i wanted to see if different wards had different types of service requests. To do this i made a pivot table in sheets using "Ward_For_Analysis" as my rows, yupe as my colums and counta of service request ID as the values, i then looked at the percentages of each request type and how they differed between each ward. 
 
@@ -73,11 +78,11 @@ I also made 100% bar chart (stacked) to see the differences in proportion of dif
 
 These findings show that different areas of ottawa may have different concerns from its residents. The results are based on a sample however, and with more time and investigating we would be able to draw a much more clear conclusion. 
 
-
+![Ottawa 311 Pivot Table](pivot-table-screen-capture.png)
 Figure 3: Pivot table showing the percentage of service request types across selected Ottawa wards.
 
 
-
+![Ottawa 311 Chart](311_chart.png)
 Figure 4: Exploratory chart comparing service request categories across selected Ottawa wards.
 ## 3. Delivering Data
 After taking a peek at the 311 request data, i think that there is a ton of portential to make a story about how residents expereience different problems depending on which ward they are currently staying in. The end goal is to get an understanding as to why ceretain types of these requstes are showing up more in certain wards over others. 
